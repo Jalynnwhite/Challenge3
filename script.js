@@ -20,10 +20,10 @@ function generatePassword() {
   var numericChars = "0123456789";
   var specialChars = "!@#$%^&*()_+-=[]{}|;:,.<>?";
 
-  // Combine all characters
-  var allChars = lowercaseChars + uppercaseChars + numericChars + specialChars;
+  
+   
 
-  // Prompt the user for password length
+   
   var passwordLength = parseInt(prompt("Enter password length (between 8 and 128 characters):"));
 
   // Validate password length
